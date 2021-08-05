@@ -75,14 +75,4 @@ public class MessageSenderTests {
 
         Assertions.assertEquals(actual, expected);
     }
-
-    @Test
-    void shouldReturnMoscowLocation() {
-        String ip = "172.0.32.11";
-        GeoService geoService = new GeoServiceImpl();
-        Location expectedLocation = Mockito.mock(Location.class);
-        Mockito.when(expectedLocation.getCity()).thenReturn("Moscow");
-        Location actualLocation = geoService.byIp(ip);
-        Assertions.assertEquals(expectedLocation.getCity(), actualLocation.getCity());
-    }
 }

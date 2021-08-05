@@ -1,0 +1,10 @@
+ru/netology/entity/Location.class
+ru/netology/sender/MessageSender.class
+Main.class
+ru/netology/i18n/LocalizationServiceImpl$1.class
+ru/netology/entity/Country.class
+ru/netology/geo/GeoService.class
+ru/netology/i18n/LocalizationServiceImpl.class
+ru/netology/i18n/LocalizationService.class
+ru/netology/geo/GeoServiceImpl.class
+ru/netology/sender/MessageSenderImpl.class
